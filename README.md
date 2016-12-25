@@ -5,6 +5,7 @@ To the next web editor -
   * lehighaepi.com forwards to sigmaetaaepi.com
   * .HTACCESS will allow for modification to domain forwarding 
   * All email change requests should be sent to dean@deankroker.com
+  * Domain names are hosted via Google Domains
 
 Email forwarding:
 _Note: Our MX records are configured for email forwarding only._
