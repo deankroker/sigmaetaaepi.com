@@ -1,7 +1,7 @@
 # The Sigma Eta Chapter of the Alpha Epsilon Pi fraternity.
 
 To the next web editor - 
-  * Submit changes to sigmaetaaepi.com via a Pull Request (updates to master will update sigmaetaaepi.com). 
+  * Submit changes to sigmaetaaepi.com via a Pull Request (updates to master will update sigmaetaaepi.com)
   * lehighaepi.com forwards to sigmaetaaepi.com
   * .HTACCESS will allow for modification to domain forwarding 
   * All email change requests should be sent to dean@deankroker.com
