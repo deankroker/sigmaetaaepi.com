@@ -3,8 +3,9 @@
 To the next web editor - 
   * Submit changes to sigmaetaaepi.com via a Pull Request (updates to master will update sigmaetaaepi.com)
   * lehighaepi.com forwards to sigmaetaaepi.com
-  * .HTACCESS will allow for modification to domain forwarding 
-  * All email change requests should be sent to dean@deankroker.com
+  * .HTACCESS will allow for modification to domain forwarding
+  * For custom sub-domains (managed in the DNS), contact dean@deankroker.com
+  * All email forward requests should be sent to dean@deankroker.com
   * Domain names are hosted via Google Domains
 
 Email forwarding:
