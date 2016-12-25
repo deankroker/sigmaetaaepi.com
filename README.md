@@ -3,10 +3,10 @@
 To the next web editor - 
   * Submit changes to sigmaetaaepi.com via a Pull Request (updates to master will update sigmaetaaepi.com)
   * lehighaepi.com forwards to sigmaetaaepi.com
-  * .HTACCESS will allow for modification to domain forwarding
-  * For custom sub-domains (managed in the DNS), contact dean@deankroker.com
+  * .htaccess will allow for modification to domain forwarding, sub-domains, etc.
   * All email forward requests should be sent to dean@deankroker.com
-  * Domain names are hosted via Google Domains
+  * DNS are served via Google Domains
+  * Domain is hosted via Github Pages
 
 Email forwarding:
 _Note: Our MX records are configured for email forwarding only._
