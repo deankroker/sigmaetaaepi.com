@@ -1,0 +1,23 @@
+<IfModule mod_rewrite.c>
+	Options -MultiViews
+	RewriteEngine On
+	RewriteBase /
+	
+	RewriteCond %{REQUEST_FILENAME} !-f
+	
+	RewriteRule ^news$ newsletter.pdf [NC,L]
+	RewriteRule ^newsletter$ newsletter.pdf [NC,L]
+        RewriteRule ^signup$ https://docs.google.com/spreadsheets/d/
+        RewriteRule ^wewalk$ https://www.facebook.com/events/913918002040180/ [NC,L]
+        RewriteRule ^jlb$ https://www.facebook.com/events/470941349769391 [NC,L]
+	
+
+</IfModule>
+
+RewriteCond %{HTTP_HOST} ^give\.sigmaetaaepi\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.give\.sigmaetaaepi\.com$
+RewriteRule ^/?$ "https\:\/\/www\.paypal\.com\/cgi\-bin\/webscr\?cmd\=_s\-xclick\&hosted_button_id\=BNFMDTJ3VMGMY" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^news\.sigmaetaaepi\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.news\.sigmaetaaepi\.com$
+RewriteRule ^/?$ "http\:\/\/sigmaetaaepi\.com\/newsletter\.pdf" [R=301,L]
