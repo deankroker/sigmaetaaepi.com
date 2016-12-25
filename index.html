@@ -26,7 +26,7 @@
   <body>
     <!-- Navigation
     ==========================================-->
-    <nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
+    <nav id="tf-menu" class="navbar navbar-default navbar-fixed-top" style="height:50px">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -45,11 +45,12 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#tf-home" class="page-scroll">Home</a></li>
             <li><a href="#tf-about" class="page-scroll">About</a></li>
-            <li><a href="#board" class="page-scroll">Board</a></li>
+            <li><a href="#board" class="page-scroll" onclick="history.pushState(null, null, pagename)">Board</a></li>
             <li><a href="#recruitment" class="page-scroll">Recruitment</a></li>
             <li><a href="#alumni" class="page-scroll">Alumni</a></li>
             <li><a href="#faq" class="page-scroll">FAQ</a></li>
             <li><a href="#contact" class="page-scroll">Contact</a></li>
+			<li><a target="_blank" class = "page-scroll" href="http://ignite.lehigh.edu/AEPi">Donate <img src="img/external_link.png" alt="" style="height:12px" /><a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -61,7 +62,7 @@
         <div class="overlay">
             <div class="content">
                 <h1><strong><span class="color">Alpha Epsilon Pi </span></strong>Sigma Eta</h1>
-                <p class="lead">Welcome to Lehigh University's <strong> only </strong>Jewish fraternity, located in Bethlehem PA.</p>
+                <p class="lead">Welcome to Lehigh University's <i> only </i>Jewish fraternity, located in Bethlehem PA.</p>
                 <a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
             </div>
         </div>
@@ -121,9 +122,9 @@
                 <div id="team" class="owl-carousel owl-theme row">
                     <div class="item">
                         <div class="thumbnail">
-                            <img src="img/board/shane.jpg" alt="..." class="img-circle team-img">
+                            <img src="img/board/ivis.jpg" alt="..." class="img-circle team-img">
                             <div class="caption">
-                                <h3>Shane Wolfe</h3>
+                                <h3>Ian Davis</h3>
                                 <p>Master</p>
                             </div>
                         </div>
@@ -131,9 +132,9 @@
 
                     <div class="item">
                         <div class="thumbnail">
-                            <img src="img/board/roger.jpg" alt="..." class="img-circle team-img">
+                            <img src="img/board/kawa.jpg" alt="..." class="img-circle team-img">
                             <div class="caption">
-                                <h3>Roger Blumin</h3>
+                                <h3>Matt Kawa</h3>
                                 <p>Lt. Master</p>
                             </div>
                         </div>
@@ -141,9 +142,9 @@
 
                     <div class="item">
                         <div class="thumbnail">
-                            <img src="img/board/brian.jpg" alt="..." class="img-circle team-img">
+                            <img src="img/board/conch.jpg" alt="..." class="img-circle team-img">
                             <div class="caption">
-                                <h3>Brian Reiff</h3>
+                                <h3>Ethan Whitney</h3>
                                 <p>Scribe</p>
                             </div>
                         </div>
@@ -151,70 +152,10 @@
 
                     <div class="item">
                         <div class="thumbnail">
-                            <img src="img/board/allon.jpg" alt="..." class="img-circle team-img">
+                            <img src="img/board/roman.jpg" alt="..." class="img-circle team-img">
                             <div class="caption">
-                                <h3>Allon Vitenson</h3>
+                                <h3>Roman Brown</h3>
                                 <p>Exchequer</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/board/pat.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Patrick Dec</h3>
-                                <p>Pledgemaster</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/board/matt.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Matt Deninger</h3>
-                                <p>Brother at Large</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/board/drew.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Drew Berger</h3>
-                                <p>Recruitment</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/board/kieran.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Kieran Hall</h3>
-                                <p>Social</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/board/dean.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Dean J. Kroker</h3>
-                                <p>Jewish Leadership</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/board/samw.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Sam Waldorf</h3>
-                                <p>Civics</p>
                             </div>
                         </div>
                     </div>
@@ -224,16 +165,80 @@
                             <img src="img/board/sam.jpg" alt="..." class="img-circle team-img">
                             <div class="caption">
                                 <h3>Sam Cassell</h3>
+                                <p>Pledgemaster</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="thumbnail">
+                            <img src="img/board/benmiller.jpg" alt="..." class="img-circle team-img">
+                            <div class="caption">
+                                <h3>Ben Miller</h3>
+                                <p>Brother at Large</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="thumbnail">
+                            <img src="img/board/tracy.jpg" alt="..." class="img-circle team-img">
+                            <div class="caption">
+                                <h3>Matt Tracy</h3>
+                                <p>Recruitment</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="thumbnail">
+                            <img src="img/board/austin.jpg" alt="..." class="img-circle team-img">
+                            <div class="caption">
+                                <h3>Austin Carkhuff</h3>
+                                <p>Social</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="thumbnail">
+                            <img src="img/board/stephen.jpg" alt="..." class="img-circle team-img">
+                            <div class="caption">
+                                <h3>Stephen Greenwald</h3>
+                                <p>Jewish Leadership</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="thumbnail">
+                            <img src="img/board/aaron.jpg" alt="..." class="img-circle team-img">
+                            <div class="caption">
+                                <h3>Aaron Gray</h3>
+                                <p>Civics</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="thumbnail">
+                            <img src="img/board/lav.jpg" alt="..." class="img-circle team-img">
+                            <div class="caption">
+                                <h3>Andrew Lavender</h3>
                                 <p>Philanthropy</p>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="thumbnail">
+							<img src="img/board/matt.jpg" alt="..." class="img-circle team-img">
                             <div class="caption">
+								<h3>Matt Deninger</h3>
+                                <p>Sentinel</p>
                             </div>
                         </div>
                     </div>
+
                 </div>
                 
             </div>
@@ -273,7 +278,7 @@
                 </div>
 
                 <div class="col-md-3 col-sm-6 service">
-                    <i class="fa"><img src="img/jewish.png" height="40px"></img></i>
+                    <i class="fa"><img src="img/jewish.png" style="width:100%; float:left;"></img></i> <!-- ALSO HAD hieght:100%, CHANGED FOR MOBILE -->
                     <h4><strong>Jewish Growth</strong></h4>
                     <p>"It's amazing how, after just a few short months in AEPi, I was able to truly lean on my brothers in a time of need. I feel an immense connection to them, and to Judaism."</p>
                 </div>
@@ -288,35 +293,51 @@
             <div class="container">
 
                 <div class="section-title center">
-                    <h2>We <strong>work</strong></h2>
+                    <h2>Where we <strong>work</strong></h2>
                     <div class="line">
                         <hr>
                     </div>
                 </div>
                 <div id="clients" class="owl-carousel owl-theme">
                     <div class="item">
-                        <img src="img/work/01.png">
+						<a target="_blank" href="http://www.apple.com"> 
+							<img src="img/work/01.png">
+						</a>
+					</div>
+                    <div class="item">
+						<a target="_blank" href="http://www.nasa.gov"> 
+							<img src="img/work/02.png">
+						</a>
                     </div>
                     <div class="item">
-                        <img src="img/work/02.png">
+						<a target="_blank" href="http://www.pwc.com"> 
+							<img src="img/work/03.png">
+						</a>
                     </div>
                     <div class="item">
-                        <img src="img/work/03.png">
+						<a target="_blank" href="http://www.menshealth.com"> 
+							<img src="img/work/04.png">
+						</a>
                     </div>
                     <div class="item">
-                        <img src="img/work/04.png">
+						<a target="_blank" href="http://www.lutron.com"> 
+							<img src="img/work/05.png">
+						</a>
                     </div>
                     <div class="item">
-                        <img src="img/work/05.png">
+						<a target="_blank" href="http://www.ibm.com"> 
+							<img src="img/work/06.png">
+						</a>
                     </div>
                     <div class="item">
-                        <img src="img/work/06.png">
+						<a target="_blank" href="http://www.jpmorgan.com"> 
+							<img src="img/work/07.png">
+						</a>
                     </div>
                     <div class="item">
-                        <img src="img/work/07.png">
-                    </div>
-                    <div class="item">
-                        <img src="img/work/08.png">
+						<a target="_blank" href="http://www.ey.com"> 
+							<img src="img/work/08.png">
+						</a>
                     </div>
                 </div>
 
@@ -332,14 +353,23 @@
                     <hr>
                 </div>
                 <div class="clearfix"></div>
-                <h3><em>We recognize and appreciate that having a strong, active alumni 
+                <h3><em>
+				We recognize and appreciate that having a strong, active alumni 
                 base is a principal goal for the chapter.  With nearly 300 alumni, we have 
                 several avenues by which alumni can stay involved.  We are thrilled to have 
                 such active alumni, involved in Lehigh's Asa Packer Society, Tower Society, 
-                Jewish Student Advisory Council, and more. <br> <br> <a href="alum.html"> Access Alumni Portal <a class="fa fa-sign-in"> </a></a></em></h3>
+                Jewish Student Advisory Council, and more. 
+				<br> <br> 
+				<!-- COMMENTED OUT UNTIL ALUMNI PORTAL CREATED
+				<a href="alum.html"> Access Alumni Portal <a class="fa fa-sign-in"> </a></a>
+				-->
+				<a href="newsletter.pdf"> Read Our Most Recent Newsletter </a>
+				</em></h3>
             </div>
             <div class="space"></div>
 
+			<!-- TEMPORARILY COMMENTED OUT BROKEN PARTS OF ALUMNI SECTION
+				SERIOUS REDESIGN NEEDED
             <div id="lightbox" class="row">
 
                 <div class="col-sm-6 col-md-3 col-lg-3 branding">
@@ -361,7 +391,7 @@
                                 <span class="fa fa-dot-circle-o"></span>
                                 <a href="#board" class="page-scroll">
                                     <strong>Past Newsletters</strong>
-                                </a> - <em>found below.</em>
+                                </a> - <em>found to the right.</em>
                             </li>
                 </ul>
                     </div>
@@ -408,8 +438,8 @@
                     <div class="portfolio-item">
                             <a href="#contact" class="page-scroll">
                                     <h4>Get in Contact</h4>
-                                    <small>Send us an old newsletter, provide us feedback, or ask any question you'd like.</small>
-                                    <div class="clearfix"></div>
+                                    <p style = "color:#5a5a5a; font-style:italic;">Send us an old newsletter, provide us feedback, or ask any question you'd like.</p>
+									<div class="clearfix"></div>
                                     <i class="fa fa-envelope"></i>
                             </a>
                     </div>
@@ -418,6 +448,7 @@
                 
 
             </div>
+			-->
         </div>
     </div>
 
@@ -499,7 +530,7 @@
                 </div>
 
                 <div class="col-lg-4 text-center">
-                    <p><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BNFMDTJ3VMGMY"><i class="fa fa-paypal fa-3x wow bounceIn" data-wow-delay=".1s"></i> <br>Give to ΑΕΠ-ΣΗ</a></p>
+                    <p><a target="_blank" href="http://ignite.lehigh.edu/AEPi"><i class="fa fa-paypal fa-3x wow bounceIn" data-wow-delay=".1s"></i> <br>Give to ΑΕΠ-ΣΗ</a></p>
                 </div>
             </div>
                 </div>
@@ -514,10 +545,10 @@
             </div>
             <div class="pull-right fnav">
                 <ul class="footer-social">
-                    <li><a href="http://facebook.com/lehighaepi"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://www.linkedin.com/grp/home?gid=8297167"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BNFMDTJ3VMGMY"><i class="fa fa-money"></i></a></li>
-                    <li><a href="mailto:info@sigmaetaaepi.com"><i class="fa fa-envelope"></i></a></li>
+                    <li><a href="http://facebook.com/lehighaepi"><i style="width:35px; height:35px;" class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.linkedin.com/grp/home?gid=8297167"><i style="width:35px; height:35px;" class="fa fa-linkedin"></i></a></li>
+                    <li><a href="mailto:info@sigmaetaaepi.com"><i style="width:35px; height:35px;" class="fa fa-envelope"></i></a></li>
+                    <li><a target="_blank" href="http://ignite.lehigh.edu/AEPi"><i style="width:35px; height:35px;" class="fa fa-money"></i></a></li>
                 </ul>
             </div>
         </div>
