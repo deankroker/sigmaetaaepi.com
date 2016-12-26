@@ -6,7 +6,7 @@ To the next web editor -
   * .htaccess will allow for modification to domain forwarding, sub-domains, etc.
   * All email forward requests should be sent to dean@deankroker.com
   * DNS are served via Google Domains
-  * Domain is hosted via Github Pages
+  * Deploy through Heroku
 
 Email forwarding:
 _Note: Our MX records are configured for email forwarding only._
