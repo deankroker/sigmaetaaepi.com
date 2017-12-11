@@ -4,8 +4,8 @@ To the next web editor -
   * Submit changes to sigmaetaaepi.com via a Pull Request (updates to master will update sigmaetaaepi.com)
   * lehighaepi.com forwards to sigmaetaaepi.com
   * All email/domain forward requests should be sent to dean@deankroker.com
-  * DNS are served via Google Domains
-  * Deploy through Github Sites (static only). Heroku configured for server-side functions (forms, .htaccess, etc.)
+  * DNS are served via Google Domains. Domain is served via AWS.
+  * Deploy through Gitlab and the runner (see yml file) will pick it up and publish to AWS.
 
 Email forwarding:
 _Note: Our MX records are configured for email forwarding only._
