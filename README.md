@@ -1,5 +1,7 @@
 # The Sigma Eta Chapter of the Alpha Epsilon Pi fraternity.
 
+[![pipeline status](https://gitlab.com/deankroker/k0/badges/master/pipeline.svg)](https://gitlab.com/deankroker/aepi/commits/master)
+
 To the next web editor - 
   * Submit changes to sigmaetaaepi.com via a Pull Request (updates to master will update sigmaetaaepi.com)
   * lehighaepi.com forwards to sigmaetaaepi.com
